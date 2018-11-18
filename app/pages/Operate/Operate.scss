@@ -1,0 +1,33 @@
+@import '../../base.scss';
+@import '../../Component/Header/Header.scss';
+@import '../../Component/Footer/Footer.scss';
+
+#operate {
+    max-width: 750px;
+    margin: 7rem auto;
+
+    > .title {
+        margin: 20px 0;
+        display: flex;
+
+        input {
+            margin-left: 20px;
+            text-indent: 5px;
+            flex: 1;
+            outline: 0;
+            border: 1px solid #ddd;
+        }
+    }
+
+    .publish {
+        text-decoration: none;
+        color: #fff;
+        background-color: #0001ee;
+        border-radius: 5px;
+        padding: 2px 5px;
+    }
+
+    .remove {
+        float: right;
+    }
+}

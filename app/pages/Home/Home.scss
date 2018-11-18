@@ -1,0 +1,81 @@
+.animated {
+    animation-iteration-count: infinite;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background: {
+        color: #0f0f0f;
+        image: url("../../../image/bg.gif");
+        size: cover;
+        position: center;
+        repeat: no-repeat;
+    }
+
+    div {
+        color: #fff;
+        opacity: 0.8;
+        font-size: 5rem;
+        line-height: 1.5em;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .header {
+        height: 40vh !important;
+    }
+}
+
+.ant-pagination {
+    text-align: center;
+}
+
+.section {
+    dl {
+        position: relative;
+        margin: 4rem auto;
+        padding-bottom: 4rem;
+        border-bottom: #EBF2F6 1px solid;
+        word-wrap: break-word;
+
+        dt {
+            color: #4A4A4A;
+            font-size: 3.6rem;
+            line-height: 1.15em;
+            margin: 0 0 0.4em;
+
+            a {
+                color: #4A4A4A;
+                text-decoration: none;
+
+                &:hover {
+                    color: #111;
+                }
+            }
+        }
+
+        dd {
+            font-size: 0.9em;
+            line-height: 1.7em;
+        }
+
+        .content {
+            word-break: break-all;
+            overflow-y: scroll;
+            max-height: 6rem;
+        }
+
+        .time {
+            margin: 1.75rem 0 0;
+            font-size: 1.3rem;
+            line-height: 2.2rem;
+            color: #9EABB3;
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+}
