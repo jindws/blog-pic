@@ -7,7 +7,7 @@
     height: 100vh;
     background: {
         color: #0f0f0f;
-        image: url("../../../image/bg.gif");
+        image: url("../../../image/bg.png");
         size: cover;
         position: center;
         repeat: no-repeat;
@@ -20,13 +20,17 @@
         line-height: 1.5em;
         height: 100%;
         display: flex;
-        align-items: center;
+        align-items: flex-end;
         justify-content: center;
     }
 }
 @media only screen and (max-width: 900px) {
     .header {
         height: 40vh !important;
+
+        div {
+            display: none;
+        }
     }
 }
 

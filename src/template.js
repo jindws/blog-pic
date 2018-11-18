@@ -22,6 +22,7 @@ module.exports =  ({ body='',title}) => {
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
         <script src="https://cdn.bootcss.com/mobx/5.5.0/mobx.umd.min.js"></script>
         <script src="https://cdn.bootcss.com/Swiper/4.4.2/js/swiper.min.js"></script>
+        <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
         <script type="text/javascript" src="/dist/app.js" charset="utf-8"></script>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
       </html>`
