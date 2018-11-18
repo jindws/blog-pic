@@ -7,7 +7,7 @@ class Home extends Component {
         return [
             <header key='header' className='header'>
                 <div className='animated bounce' onClick={()=>{
-                    $("html,body").finish().animate({"scrollTop":$('header').height},900);
+                    $("html,body").finish().animate({"scrollTop":$('header').height()},900);
                 }}>
                     <Icon type="down" />
                 </div>
