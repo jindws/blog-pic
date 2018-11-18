@@ -16,7 +16,7 @@ const Index = async ctx => {
 
     ctx.body = template({
       body,
-      title: 'blog',
+      title: '我的个人作品',
     })
 }
 
